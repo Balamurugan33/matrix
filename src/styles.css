@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: space-around;
+}
+.col {
+  width: 100%;
+  height: 40px;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-red {
+  background-color: red;
+}
+.col:focus {
+  background-color: red;
+}
